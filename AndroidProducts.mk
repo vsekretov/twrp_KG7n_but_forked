@@ -16,6 +16,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_RMX3195.mk
+    $(LOCAL_DIR)/twrp_KG7n.mk
 
-COMMON_LUNCH_CHOICES := twrp_RMX3195-eng
+COMMON_LUNCH_CHOICES := twrp_KG7n-eng
