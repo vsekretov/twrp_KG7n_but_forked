@@ -1,4 +1,4 @@
-# TWRP Realme C25s
+# TWRP Tecno Spark 8P
 Works:
 Encryption.
 Fastbootd.
