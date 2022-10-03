@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/realme/RMX3195
+DEVICE_PATH := device/tecno/KG7n
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -61,15 +61,14 @@ TARGET_SUPPORTS_64_BIT_APPS := true
 TARGET_IS_64_BIT := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := oppo6768
+TARGET_BOOTLOADER_BOARD_NAME := TECNO-KG7n
 TARGET_NO_BOOTLOADER := true
 TARGET_USES_UEFI := true
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6768
 
-# Assert
-TARGET_OTA_ASSERT_DEVICE := RMX3195,rmx3195,RMX3197,rmx3197,ossi
+
 
 # Kernel
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2
@@ -192,4 +191,4 @@ TW_INCLUDE_REPACKTOOLS := true
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 
-TW_DEVICE_VERSION := Realme C25s - RMX3195 by SK
+TW_DEVICE_VERSION := Tecno KG7n
